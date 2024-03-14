@@ -3,9 +3,10 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     labels:
       - dependencies
     target-branch: "main"
     pull-request-branch-name:
       separator: "/"
+
